@@ -135,6 +135,8 @@ class Sizr {
         if ($this->width && $this->height) {
 
             // Both width and height are set
+            $this->calcWidth  = $this->width;
+            $this->calcHeight = $this->height;
 
         } elseif ($this->width) {
 
